@@ -12,7 +12,8 @@ import { MaterialModule } from '../shared/material/material.module';
   imports: [
     CommonModule,
     MaterialModule,
-    CursosRoutingModule
-  ]
+    CursosRoutingModule,
+  ],
+  providers: []
 })
 export class CursosModule { }
